@@ -1,0 +1,15 @@
+<launch>
+  
+    <!-- Launch Gazebo  -->
+    <include file="$(find mirobot_gazebo)/launch/mirobot_gazebo_world.launch" />
+
+    <!-- ros_control arm launch file -->
+    <include file="$(find mirobot_gazebo)/launch/mirobot_gazebo_states.launch" />   
+
+    <!-- ros_control trajectory control  arm launch file -->
+    <include file="$(find mirobot_gazebo)/launch/mirobot_trajectory_controller.launch" />
+
+    <!-- moveit launch file -->
+    <include file="$(find mirobot_moveit_config)/launch/moveit_planning_execution.launch" />
+
+</launch>

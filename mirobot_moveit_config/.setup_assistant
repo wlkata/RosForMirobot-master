@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: mirobot_urdf_2
+    relative_path: urdf/mirobot_urdf_2.urdf
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/mirobot_urdf_2.srdf
+  CONFIG:
+    author_name: zhoudongxu
+    author_email: zhoudongxv@yeah.net
+    generated_timestamp: 1581671035
