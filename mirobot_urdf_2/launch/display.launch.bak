@@ -23,5 +23,4 @@
     pkg="rviz"
     type="rviz"
     args="-d $(find mirobot_urdf_2)/urdf.rviz" />
-  <node name="mirobot_write_node" pkg="mirobot_urdf_2" type="mirobot_write_node" />
 </launch>
