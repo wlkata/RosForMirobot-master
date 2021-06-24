@@ -23,6 +23,8 @@
   <!-- Run a python script to the send a service call to gazebo_ros to spawn a URDF robot -->
   <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
 	args="-urdf -model mirobot -param robot_description"/> 
-  <node name="mirobot_write_node" pkg="mirobot_urdf_2" type="mirobot_write_node" />
+
+  
+  <!--node name="mirobot_write_node" pkg="mirobot_urdf_2" type="mirobot_write_node" /-->
 
 </launch>
