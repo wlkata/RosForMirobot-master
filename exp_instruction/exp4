@@ -1,0 +1,14 @@
+
+experiment 4: use Moveit to control Mirobot 
+
+1 use Moveit! setup assistant tool to config Mirobot 
+   
+  sudo apt install ros-kinetic-moveit
+
+  roscore
+  
+  rosrun moveit_setup_assistant moveit_setup_assistant 
+
+
+2 view the generated Mirobot using rviz  
+  

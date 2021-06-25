@@ -1,0 +1,8 @@
+
+experiment 1: display mirobot in rviz 
+
+1 copy urdf files (in a folder) to ros workspace
+  
+note: urdf files are available in github, https://github.com/wlkata/RosForMirobot-master  
+
+2 call roslaunch display_urdf.launch to view mirobot model in rviz 

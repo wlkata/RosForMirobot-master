@@ -1,0 +1,9 @@
+
+experiment 6: Moveit! + Gazebo 
+
+1 break down mirobot_bringup_moveit.launch
+
+2 see the results by running  
+  
+  roslaunch mirobot_bringup_moveit.launch 
+  
