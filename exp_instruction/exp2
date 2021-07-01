@@ -1,0 +1,34 @@
+
+experiment 2: ROS comminication using rosserial_arduino  
+
+1 Install ROS and Arduino IDE 
+
+2 Install ros_lib into the Arduino Environment 
+  sudo apt-get install ros-kinetic-rosserial
+  sudo apt-get install ros-kinetic-rosserial-arduino 
+  sudo apt-get install ros-kinetic-rosserial-python
+  
+  create ros_lib in Arduino's sketchbook location 
+
+  rosrun rosserial_arduino make_libraries.py .
+
+
+3 Connect Arduino and USB-Serial Converter to PC &
+  connect Arduino's serial port to USB-Serial converter's serial port via Dupont Line 
+
+4 Compile exp2 code and upload it to Arduino 
+  
+5 run it as a ros node (change ACM0's permission before run serial_node in ros)
+  
+  sudo chmod +777 /dev/ttyACM0
+
+  roscore 
+  rosrun rosserial_python serial_node.py _port:=/dev/ttyACM0 
+
+6 run display.launch to change the joint states 
+
+7 run serial_monitor tool to display the updated joint states 
+
+8 run rqt_graph to show the messages and nodes in ROS
+
+

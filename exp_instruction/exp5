@@ -1,0 +1,16 @@
+
+experiment 5: Gazebo Simulation 
+
+1 modify urdf file to be imported to Gazebo 
+   
+  add inertial properties to links   
+
+  add transmission and motors to control joints
+
+  add ros_control plugin to control the motors 
+
+
+2 view Mirobot in Gazebo 
+  
+  roslaunch gazebo.launch 
+  

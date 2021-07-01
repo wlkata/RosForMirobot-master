@@ -1,0 +1,17 @@
+
+experiment 3: Control Mirobot with ROS   
+
+1 Install serial lib 
+
+  sudo apt-get install ros-kinetic-serial
+
+2 Compile mirobot_write_node.cpp 
+
+3 Change permission 
+
+  sudo chmod +777 /dev/ttyUSBx 
+
+4 Run display.launch   
+
+  roslaunch display.launch 
+
