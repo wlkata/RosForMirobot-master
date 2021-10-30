@@ -15,17 +15,9 @@ for mirobot_urdf_2 robot</p>
   <depend>rviz</depend>
   <depend>joint_state_publisher</depend>
   <depend>gazebo</depend>
-  <buildtool_depend>catkin</buildtool_depend>
-  <build_depend>roscpp</build_depend>
-  <build_depend>rospy</build_depend>
-  <build_depend>std_msgs</build_depend>
-  <build_depend>sensor_msgs</build_depend>
-  <exec_depend>roscpp</exec_depend>
-  <exec_depend>rospy</exec_depend>
-  <exec_depend>std_msgs</exec_depend>
-  <exec_depend>sensor_msgs</exec_depend>
+  <depend>gazebo_ros</depend>
+  <depend>serial</depend>
   <export>
     <architecture_independent />
   </export>
 </package>
-
