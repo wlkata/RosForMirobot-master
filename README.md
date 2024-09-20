@@ -64,6 +64,10 @@ Then, display the mirobot model in rviz and gazebo by using the rviz interface o
 ```bash
 roslaunch mirobot_gazebo mirobot_bringup_moveit.launch
 ```
-## 4. Experiment demos (release soon)
+## 4. Experiment demos:
+Watch the tutorials here: 
+https://www.youtube.com/watch?v=acSDDzRKDmg&list=PLrf9BLY5v4umZRIOZqtVRDmIpB0PcmTDz
+
+Find out the experiment demos source code from the 
 
 
