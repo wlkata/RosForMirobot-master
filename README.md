@@ -68,6 +68,6 @@ roslaunch mirobot_gazebo mirobot_bringup_moveit.launch
 Watch the tutorials here: 
 https://www.youtube.com/watch?v=acSDDzRKDmg&list=PLrf9BLY5v4umZRIOZqtVRDmIpB0PcmTDz
 
-Find out the experiment demos source code from the 
+Find out the experiment demos source code (ROS_experiment_1, 2...) from the file list.
 
 
