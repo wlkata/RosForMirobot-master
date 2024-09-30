@@ -1,6 +1,6 @@
 # Mirobot ROS packages
 This is the Mirobot ROS package designed by Thor Zhou.
-email:wlkata_mirobot@tsinew.com
+email:hello@wlkata.com
 These packages support Moveit!, RViz and serial communication with Mirobot.
 
 ## 1. Download and install
